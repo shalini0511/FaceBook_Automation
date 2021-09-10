@@ -5,12 +5,13 @@ using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
+
 namespace FaceBook_Automation_Demo.Base
 {
     public class BaseClass1
     {
         public static IWebDriver driver;
-        [OneTimeSetUp]
+        [SetUp]
         public void SetUp()
         {
             driver = new ChromeDriver();

@@ -8,9 +8,7 @@ namespace FaceBook_Automation_Demo
         [Test]
         public void InputEmailAndPassword_into_InputFields()
         {
-            Pages.LoginPage.AssertAfterLaunching(driver);
-            Pages.LoginPage.LoginToFacebook(driver);
-
+            DoActions.DoAction.AssertAfterLaunching(driver);
         }
         
 
