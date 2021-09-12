@@ -17,7 +17,7 @@ namespace FaceBook_Automation_Demo.Base
             driver = new ChromeDriver();
             driver.Url = "https://www.facebook.com/";
         }
-        [OneTimeTearDown]
+        [TearDown]
         public void TearDown()
         {
             driver.Quit();

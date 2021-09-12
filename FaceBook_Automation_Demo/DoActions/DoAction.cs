@@ -20,11 +20,12 @@ namespace FaceBook_Automation_Demo.DoActions
         {
             LoginPage login = new LoginPage(driver);
             login.email.SendKeys("9384613347");
-            System.Threading.Thread.Sleep(1000);
+            System.Threading.Thread.Sleep(2000);
             login.password.SendKeys("test@123");
-            System.Threading.Thread.Sleep(1000);
+            System.Threading.Thread.Sleep(2000);
             login.loginBtn.Click();
-            System.Threading.Thread.Sleep(1000);
+            System.Threading.Thread.Sleep(9000);
+
         }
     }
 }
